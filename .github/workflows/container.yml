@@ -6,6 +6,11 @@ on:
       - main
     paths:
       - 'packages/container/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'packages/container/**'
 
 defaults:
   run:
