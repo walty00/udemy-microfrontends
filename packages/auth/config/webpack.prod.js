@@ -17,7 +17,7 @@ const prodConfig = {
                 './AuthApp': './src/bootstrap'
             },
             shared: packageJson.dependencies
-        })
+        }),
     ]
 };
 
